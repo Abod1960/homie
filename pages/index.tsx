@@ -13,7 +13,7 @@ const Dashboard1 = ({ weatherInfo }) => {
   return (
     <div
       className="flex flex-col bg-gray-900 h-screen w-screen py-32 px-64"
-      style={{ backgroundColor: "#21242d" }}
+      style={{ backgroundColor: "#2E3440" }}
     >
       <div className="mb-10">
         <h1 className="text-4xl text-gray-200">My Dashboard</h1>
@@ -24,7 +24,7 @@ const Dashboard1 = ({ weatherInfo }) => {
           <div className="space-x-4 flex flex-row">
             <div
               className="w-1/2 h-48 bg-gray-800 rounded-xl flex flex-col"
-              style={{ backgroundColor: "#2a2a34" }}
+              style={{ backgroundColor: "#3B4252" }}
             >
               <p className="text-2xl m-auto text-center mb-2 font-light text-accent">
                 {format(new Date(), "EEEE")}
@@ -35,14 +35,14 @@ const Dashboard1 = ({ weatherInfo }) => {
             </div>
             <div
               className="w-1/2 h-48 bg-gray-800 rounded-xl flex flex-col"
-              style={{ backgroundColor: "#2a2a34" }}
+              style={{ backgroundColor: "#3B4252" }}
             >
               <Weather weatherInfo={weatherInfo} />
             </div>
           </div>
           <div
             className="w-full h-48 bg-gray-800 rounded-xl"
-            style={{ backgroundColor: "#2a2a34" }}
+            style={{ backgroundColor: "#3B4252" }}
           ></div>
         </div>
         <div className="w-1/3">
